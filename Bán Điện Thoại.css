@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: rgb(230, 14, 14);
+    margin: 10px 15px 10px 15px;
+    text-align: center;
+    width: 98%;
+
+}
+
+.name{
+    font-size: 60px;
+    color: #22ff87;
+    font-weight: bold;
+    width: 98%;
+
+}
+.hl
+{
+color: rgb(0, 0, 0);
+background-color: white;
+border: dashed 1px red;
+width: 750px; height: 50px;
+text-align: center;
+margin: 0px auto;
+padding: 20px 15px 20px 15px;
+font-size: 20px;
+font-weight: bold;
+border-radius: 5px;
+}
+.root>li{
+    list-style: none;
+    float: left;
+    position: relative;
+    display: block;
+}
+.root li a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 15px 0px 15px;
+    line-height: 50px;
+    display: block;
+}
+.menu_web{
+    background-color: red;
+    width: 98%;
+    height: 50px;
+    display: block;
+    margin: 0px auto;
+}
+.root li a:hover{
+    background-color: rgb(238, 49, 49); color: rgb(37, 36, 36);}
+.submenu{
+    width: 200px;
+    background-color: rgb(238, 49, 49);
+    color: black;
+    min-height: 80px;
+    display: none;
+    position: absolute;
+}
+.submenu li{
+    list-style: none;
+}
+.submenu li a{
+    text-transform: none;
+    text-decoration: none;
+    color: black;
+    display: block;
+    border: 1px #ccc solid;
+    line-height: 50px;
+    text-align: 15px;
+}
+.root li:hover .submenu{
+    display: block;
+    background-color: red;
+    color: white;
+    transition: ease-in-out 0.35s;
+}
+.submenu li a:hover{
+    background-color: rgb(238, 49, 49);
+    color: yellow;
+    transform: ease-in-out 0.35s;
+}
